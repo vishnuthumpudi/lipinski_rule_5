@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f7f7f7;
+    background-image: url('./download.png');
+    background-repeat: no-repeat;
   }
   
   .container {
@@ -23,8 +25,6 @@ body {
     align-items: center;
     margin-top: 100px;
     margin-bottom: 100px;
-    background-image: url('./download.png');
-    background-repeat: no-repeat;
   }
 
   div.list{
