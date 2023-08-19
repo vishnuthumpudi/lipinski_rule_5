@@ -9,6 +9,9 @@ body {
     background-size: cover;
   }
   
+  .container1{
+    align-items: center;
+  }
   .container {
     max-width: 600px;
     margin: 0 auto;
