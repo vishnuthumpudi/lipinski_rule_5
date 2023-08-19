@@ -7,8 +7,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
   }
   
   .container {
