@@ -31,6 +31,8 @@ body {
 
   div.list{
     text-align: center;
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
   }
   
   ul.myUL {
