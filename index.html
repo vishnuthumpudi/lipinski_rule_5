@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Lipinski Rule of 5</title>
+</head>
+<body> 
+    <div class="info" >
+        <p><strong>Info!</strong>The website only supports .pdb format only</p>
+      </div> 
+  <div class="container">
+    <h1>Lipinski Rule of 5</h1>
+    <input type="file" id="fileInput" accept=".pdb">
+    <div class="output">
+      <p class="result">Length of extracted atom information: <span id="length"></span></p>
+      <p class="result">ATOM Molecular Weight: <span id="atomWeight"></span></p>
+      <p class="result">HETATM Molecular Weight: <span id="hetatmWeight"></span></p>
+      <p class="result">Hydrogen Bond Acceptors: <span id="hbAcceptors"></span></p>
+      <p class="result">Hydrogen Bond Donors: <span id="hbDonors"></span></p>
+      <div class="ph-range">
+        <label for="phRange">pH Range: </label>
+        <input type="number" id="phRange" step="0.1" min="0" max="14">
+        <button id="calculateButton">Calculate</button>
+      </div>
+      <p class="result">Log P: <span id="logP"></span></p>
+    </div>
+    <pre id="output"></pre>
+  </div>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
