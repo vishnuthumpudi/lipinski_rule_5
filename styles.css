@@ -15,6 +15,10 @@ body {
     text-align: center;
   }
 
+  .description{
+    text-align: center;
+  }
+
   .info {
     text-align: center;
     background-color: #e7f3fe;
