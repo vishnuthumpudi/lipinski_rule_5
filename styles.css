@@ -10,7 +10,7 @@ body {
   }
   
   .container1{
-    align-items: center;
+    text-align: center;
   }
   .container {
     max-width: 600px;
