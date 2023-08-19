@@ -24,6 +24,7 @@ body {
     margin-top: 100px;
     margin-bottom: 100px;
     background-image: url('./download.png');
+    background-repeat: no-repeat;
   }
 
   div.list{
