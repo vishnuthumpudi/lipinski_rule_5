@@ -15,7 +15,8 @@ body {
     text-align: center;
   }
 
-  .description ul{
+  .description{
+    width: 20px;
     text-align: center;
   }
 
